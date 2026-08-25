@@ -1,0 +1,13 @@
+Year,Model,Accuracy,Balanced Accuracy,Precision,Recall,F1-Score,MCC,Mean IoU,Source
+2017,FT-Transformer,0.99,0.98,0.99,0.98,0.98,0.98,0.97,derived from uploaded confusion matrix images
+2017,Random Forest,0.98,0.97,0.99,0.97,0.98,0.98,0.96,derived from uploaded confusion matrix images
+2017,SVM,0.98,0.97,0.98,0.97,0.98,0.97,0.95,derived from uploaded confusion matrix images
+2017,TabNet,0.99,0.99,0.99,0.99,0.99,0.99,0.98,derived from uploaded confusion matrix images
+2021,FT-Transformer,0.97,0.97,0.96,0.97,0.97,0.96,0.94,derived from uploaded confusion matrix images
+2021,Random Forest,0.96,0.96,0.97,0.96,0.97,0.95,0.94,derived from uploaded confusion matrix images
+2021,SVM,0.97,0.97,0.97,0.97,0.97,0.95,0.93,derived from uploaded confusion matrix images
+2021,TabNet,0.97,0.97,0.98,0.97,0.98,0.96,0.95,derived from uploaded confusion matrix images
+2026,FT-Transformer,0.98,0.97,0.98,0.97,0.97,0.97,0.94,derived from uploaded confusion matrix images
+2026,Random Forest,0.97,0.95,0.98,0.95,0.96,0.97,0.93,derived from uploaded confusion matrix images
+2026,SVM,0.98,0.97,0.98,0.97,0.97,0.98,0.95,derived from uploaded confusion matrix images
+2026,TabNet,0.97,0.96,0.97,0.96,0.97,0.97,0.94,derived from uploaded confusion matrix images

@@ -1,0 +1,74 @@
+{
+    "project_title": "Interactive Sentinel-2 Land Use/Land Cover Classification Dashboard",
+    "years": [
+        2017,
+        2021,
+        2026
+    ],
+    "models": [
+        "Random Forest",
+        "SVM",
+        "TabNet",
+        "FT-Transformer"
+    ],
+    "classes": [
+        "BL",
+        "BU",
+        "GL",
+        "TR",
+        "WB"
+    ],
+    "features": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "NDVI",
+        "NDBI",
+        "MNDWI",
+        "BSI",
+        "IBI"
+    ],
+    "map_code_note": "0 = nodata/invalid pixel; 1-5 correspond to the class_code_mapping.csv file.",
+    "data_files": {
+        "metrics": "data/all_model_metrics.csv",
+        "area_statistics": "data/all_area_statistics.csv",
+        "feature_importance": "data/all_feature_importance_statistics.csv",
+        "class_mapping": "data/class_code_mapping.csv"
+    },
+    "images_copied": [
+        "random_forest_confusion_matrix_2017.png",
+        "random_forest_confusion_matrix_2021.png",
+        "random_forest_confusion_matrix_2026.png",
+        "svm_confusion_matrix_2017.png",
+        "svm_confusion_matrix_2021.png",
+        "svm_confusion_matrix_2026.png",
+        "tabnet_confusion_matrix_2017.png",
+        "tabnet_confusion_matrix_2021.png",
+        "tabnet_confusion_matrix_2026.png",
+        "ftt_confusion_matrix_2017.png",
+        "ftt_confusion_matrix_2021.png",
+        "ftt_confusion_matrix_2026.png",
+        "random_forest_classified_map_2017.png",
+        "random_forest_classified_map_2021.png",
+        "random_forest_classified_map_2026.png",
+        "svm_classified_map_2017.png",
+        "svm_classified_map_2021.png",
+        "svm_classified_map_2026.png",
+        "tabnet_classified_map_2017.png",
+        "tabnet_classified_map_2021.png",
+        "tabnet_classified_map_2026.png",
+        "ftt_classified_map_2021.png",
+        "ftt_classified_map_2026.png"
+    ],
+    "images_missing": [
+        "ftt_classified_map_2017.png"
+    ],
+    "notes": [
+        "This first deployment package is a stable Streamlit dashboard that presents completed classification results.",
+        "It does not require rasterio, torch, pytorch-tabnet, or joblib, which reduces deployment errors.",
+        "A live model-prediction page can be added later when all compatible model files are included."
+    ]
+}

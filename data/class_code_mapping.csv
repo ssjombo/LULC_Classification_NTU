@@ -1,0 +1,6 @@
+map_code,encoded_label,original_class_label
+1,0,Bare land
+2,1,Built up
+3,2,Grassland
+4,3,Tree
+5,4,Waterbody
