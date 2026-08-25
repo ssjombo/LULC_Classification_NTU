@@ -2,6 +2,8 @@
 
 This is a Streamlit deployment package for a Sentinel-2 land use/land cover classification project. You can see the app at [https://n1386471-lulc.streamlit.app/](https://n1386471-lulc.streamlit.app/)
 
+![Streamlit App Image](./images/app_screenshot.PNG)
+
 The dashboard compares four classification algorithms:
 
 1. Random Forest
