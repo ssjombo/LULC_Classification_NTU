@@ -1,6 +1,6 @@
 # Sentinel-2 LULC Streamlit Dashboard
 
-This is a Streamlit deployment package for a Sentinel-2 land use/land cover classification project.
+This is a Streamlit deployment package for a Sentinel-2 land use/land cover classification project. You can see the app at [https://n1386471-lulc.streamlit.app/](https://n1386471-lulc.streamlit.app/)
 
 The dashboard compares four classification algorithms:
 
