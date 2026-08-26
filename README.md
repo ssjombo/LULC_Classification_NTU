@@ -1,6 +1,6 @@
 # Sentinel-2 LULC Streamlit Dashboard
 
-This is a Streamlit deployment package for a Sentinel-2 land use/land cover classification project. You can see the app at [https://n1386471-lulc.streamlit.app/](https://n1386471-lulc.streamlit.app/)
+This is a Streamlit deployment package for a Sentinel-2 Land Use and Land Cover (LULC) classification project. You can see the app at [https://n1386471-lulc.streamlit.app/](https://n1386471-lulc.streamlit.app/)
 
 ![Streamlit App Image](./images/app_screenshot.PNG)
 
@@ -56,17 +56,3 @@ images/confusion_matrices/
 images/classified_maps/
 metadata/metadata.json
 ```
-
-## Missing file note
-
-The file `ftt_classified_map_2017.png` was not available when this package was created. The app handles missing images gracefully and shows a message instead of crashing.
-
-## Optional upgrade
-
-A live prediction page can be added later if all compatible model files are supplied:
-
-- Random Forest `.joblib`
-- SVM `.joblib`
-- TabNet `.zip` and imputer `.joblib`
-- FT-Transformer `.pt`, imputer `.joblib`, and scaler `.joblib`
-- label encoder or class mapping file
