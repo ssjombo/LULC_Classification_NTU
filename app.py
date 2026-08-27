@@ -12,7 +12,7 @@ import streamlit as st
 # ============================================================
 
 st.set_page_config(
-    page_title="Sentinel-2 LULC Classification Dashboard",
+    page_title="Sentinel-2 Land Use and Land Cover (LULC) Classification Dashboard",
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -236,7 +236,7 @@ def download_dataframe_button(df: pd.DataFrame, filename: str, label: str):
 # ============================================================
 
 with st.sidebar:
-    st.title("🌍 Sentinel-2 Dashboard")
+    st.title("🌍 Sentinel-2 Land Use and Land Cover (LULC) Classification Dashboard")
     st.caption("RF · SVM · TabNet · FT-Transformer")
 
     page = st.radio(
@@ -265,7 +265,7 @@ with st.sidebar:
 # ============================================================
 
 if page == "Overview":
-    st.markdown('<div class="main-title">Interactive Sentinel-2 Land Use/Land Cover Classification Dashboard</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-title">Interactive Sentinel-2 Land Use and Land Cover (LULC) Classification Dashboard</div>', unsafe_allow_html=True)
     st.markdown(
         '<div class="subtitle">Comparison of Random Forest, RBF-SVM, TabNet and FT-Transformer across three classified years.</div>',
         unsafe_allow_html=True
@@ -292,7 +292,7 @@ if page == "Overview":
     st.markdown(
         """
         <div class="info-box">
-        <b>Project aim:</b> This app presents the results of Sentinel-2 land use/land cover classification using
+        <b>Project aim:</b> This app presents the results of Sentinel-2 Land Use and Land Cover (LULC) classification using
         machine learning and deep learning models. It is designed as a deployment dashboard for showing model
         performance, confusion matrices, classified maps, area statistics and feature importance.
         </div>
