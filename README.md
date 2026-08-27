@@ -2,7 +2,7 @@
 
 This is a Streamlit deployment package for a Sentinel-2 Land Use and Land Cover (LULC) classification project. You can see the app at [https://n1386471-lulc.streamlit.app/](https://n1386471-lulc.streamlit.app/)
 
-![Streamlit App Image](./images/app_screenshot.PNG)
+![Streamlit App Image](./images/app_screenshot.png)
 
 The dashboard compares four classification algorithms:
 
